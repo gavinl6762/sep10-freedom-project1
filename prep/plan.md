@@ -2,7 +2,7 @@
 
 ## Wireframes
 * [Mobile]()
-* [Desktop](desktop.png)
+* [Desktop](../desktop.png)
 
 ## Colors
 * `#ABC123`
