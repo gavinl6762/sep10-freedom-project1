@@ -2,7 +2,7 @@
 Topic: **Chess**
 
 ## Overview/Introduction/Context
-* Chess is a competitive board game that has been around for more than 100 decades
+* Chess is a competitive board game that has been around for more than 100 years
 * Many chess players would want to get better, but how?
 * I have found some chess apps and gadgets that could possibly be helpful.
 
