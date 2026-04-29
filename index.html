@@ -7,23 +7,186 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chess</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Times New Roman", sans-serif;
+        background: #f4f4f4;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    /* Navbar */
+    .navbar {
+        background: #222;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px;
+    }
+
+    .nav-title {
+        font-weight: bold;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    /* Overview */
+    .overview {
+        border: 2px solid #333;
+        min-height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px 0;
+        background: #fff;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* Cards */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        background: #fff;
+        border: 2px solid #333;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        background: #ccc;
+    }
+
+    .card-content {
+        padding: 15px;
+        text-align: center;
+    }
+
+
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        .cards,
+        .complexity {
+            grid-template-columns: 1fr;
+        }
+
+        .nav-links {
+            display: none;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="nav-title">Chess Site</div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#apps-section">Apps</a>
+        <a href="#">Complexity</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <h1><u><strong>Chess</strong></u></h1>
+
+    <div class="overview">
+        Overview / Intro Content
+    </div>
+
+    <!-- Cards Section -->
+    <section id="apps-section">
+    <div class="cards">
+        <div class="card">
+            <img src="https://play-lh.googleusercontent.com/jYGazVldmrma3NnwIf3JuFYwgrdrqnQdwchAZF89gav6QwMZGY2EAYZaN5MB7gwLfHk" style="width: 350px; height: 250px">
+            <div class="card-content">
+                <h3><u><strong>Chess Clock App</strong></u></h3>
+                <ul>
+                    <li>It is a portable device that could be brought and used anywhere at anytime</li>
+                    <li>Fully functional digital chess clock; Has delay and increment modes</li>
+                    <li>Mainly used on IOS and Androids; able to be used on computers</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://play-lh.googleusercontent.com/gKJRzzOZkJ5LzaUIE_svtkcCmqlJtmIGW9012KQUMvKUfDXT47lv06pikj6-SqAXig=w240-h480-rw" style="width: 345px; height: 250px">
+            <div class="card-content">
+                <h3><u><strong>Dr. Wolf</strong></u></h3>
+                <ul>
+                    <li>A app that helps chess players enhance their skills in chess</li>
+                    <li>Avaliable on IOS or Android</li>
+                    <li>A digital coach that explains everything step by step</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSZnsmF4jbTwjH4PUkZ58GUfFSMHDURLaF4g&s" style="width: 250px; height: 250px">
+            <div class="card-content">
+                <h3><u><strong>Lichess</strong></u></h3>
+                <ul>
+                    <li>Lichess helps improve chess players and gives a good time </li>
+                    <li>Can be both used on website or app: lichess.org </li>
+                    <li>Inlcudes free lessons, online tournaments, puzzles, and you get to play people from all around the world using the app</li>
+                    <li>It can be used at anytime; must have internet in order to play</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>
             // JS
-            
-            
+
+
         </script>
     </body>
 </html>
