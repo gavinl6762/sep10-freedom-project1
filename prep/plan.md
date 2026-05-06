@@ -25,9 +25,8 @@
 
 #### Beyond MVP
 
-* Make the background color look nice
-* Making the Navbar look better; adding more info into the navbar 
-* Positioning 
+* Make the background color look nice(Next-Most important change to make)
+* Making the Navbar look better; adding more info into the navbar(Most important thing to change)
 
 
 
