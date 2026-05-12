@@ -1,16 +1,32 @@
 # Presentation Plan
 
 ## Hook
-* 
+* For over many years, chess has stayed mostly the same with a flat board, two players, and silent pieces. But what happens when the board becomes a world you can walk through?
 
 ## Product
-* 
+* Realm of Chess: a VR chess experience built with A-Frame.
+Players can:
+* Walk around the chessboard in virtual reality.
+* View pieces from different angles in 3D.
+* Interact with pieces naturally in an immersive environment.
+*
 
 ## Process
-* 
+* Designed a 3D chessboard and imported models into A-Frame.
+Added:
+* Camera movement
+* VR-compatible controls
 
 ## Conclusion
-* 
+* Challenges faced:
+* Positioning 3D objects correctly
+* Optimizing performance
+* Learning VR interactions
+* Challenges faced:
+* Positioning 3D objects correctly
+* Optimizing performance
+* Learning VR interactions
+* Trying to make it so that pieces are able to move by hand
 
 <!-- EXAMPLE
 
